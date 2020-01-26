@@ -176,6 +176,14 @@ footer {
     background-position: left;
 }
 
+.img-code {
+    background-image: url(../img/code.jpg);
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    background-position: left;
+}
+
 .experience {
     display: flex;
     flex-direction: row;
