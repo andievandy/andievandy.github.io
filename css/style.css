@@ -33,7 +33,7 @@ body {
     align-items: center;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     height: 100vh;
     background-color: #E1EFF7;
 }
@@ -302,8 +302,17 @@ footer {
 
 
 @media (max-width: 667px) {
+
+    .landing {
+        grid-template-columns: 0.5fr 2fr 0.5fr;
+    }
+
+    .container {
+        padding: 0px 25px;
+    }
+
     .experience-card {
-        flex: 1 0 25%;
+        flex: 1 0 80%;
     }
 
     .section {
